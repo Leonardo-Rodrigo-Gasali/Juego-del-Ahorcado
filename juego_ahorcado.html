@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Juego Ahorcado</title>
+</head>
+<body>
+
+
+  <main>
+
+    <section class="container flex">
+        <div class="left_side gallows">
+          <div class="crossbarOne"></div>
+          <div class="floor"></div>
+          <div class="crossbar"></div>
+          <div class="post">
+            <div class="muerto cabeza"></div>
+            <div class="muerto cuerpo">
+              <div class="muerto brazo-der"></div>
+              <div class="muerto brazo-izq"></div>
+              <div class="muerto pierna-izq"></div>
+              <div class="muerto pierna-der"></div>
+            </div>
+          </div>
+        </div>
+        <div class="right_side">
+          <h1 class="nombre_juego">Juego del Ahorcado</h1>
+          <div class="elegir_tema">
+            Elegir Tema<br><br>
+            <button type="button" class="theme" value="0">Ciudad</button>
+            <button type="button" class="theme" value="1">Fruta</button>
+            <button type="button" class="theme" value="2">Comida</button>
+          </div>
+          <div id="theme_display"></div>
+          <div id="result_display"></div>
+          <div id="word_display"></div><br>
+          <div id="keybord"></div>
+          <br>
+          <button type="button" class="new_game">Nuevo Juego</button>
+          <button onclick="window.location.href='index.html'" type="button" class="desistir_game">Desistir</button>
+        </div>
+      </section>
+    
+    </main>
+
+    <!-- Footer -->
+  <footer>
+    <p>&copy Copyright 2022 | <span>Leonardo Gasali</span></p>
+  </footer>
+
+  <!-- Javascript -->
+      <script src="assets/js/script.js"></script>
+
+</body>
+</html>

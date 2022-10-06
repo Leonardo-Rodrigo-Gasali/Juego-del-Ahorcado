@@ -1,0 +1,92 @@
+  /* Agregar Palabra pagina */
+body{
+    background-color: #19181d;
+}
+
+
+.circulo{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background: linear-gradient(#313247 0%, #19181d 30%);
+	position: absolute;
+	top: 20%;
+	left: 40%;
+}
+
+.circulo:before, .circulo:after{
+	content: '';
+	height: 400px;
+	width: 400px;
+	background: linear-gradient(#ffd1da 0%, #ff849d 5%, #2d2133 25%);
+	border-radius: 50%;
+	position: absolute;
+	top: 42%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+    -webkit-filter: blur(7px);
+	z-index: -1;
+}
+
+.circulo:after{
+	width: 415px;
+	top: 35%;
+    -webkit-filter: blur(14px);
+	opacity: .3;
+}
+
+.mensaje__proximamente{
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: white;
+	letter-spacing: 45px;
+	position: absolute;
+	top: 50%;
+	left: 52.5%;
+	transform: translate(-50%, -50%);
+}
+
+.notificarme{
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #ffd1da;
+	letter-spacing: 2px;
+	position: absolute;
+	bottom: 17%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.form__proximamente{
+	position: absolute;
+	bottom: 8%;
+	left: 53%;
+	transform: translateX(-50%);
+}
+.form__proximamente input{
+	height: 35px;
+	width: 300px;
+	background-color: #101113;
+	outline: none;
+	border: none;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding-left: 15px;
+	color: white;
+}
+.form__proximamente button{
+	height: 35px;
+	width: 100px;
+	background-color: #2e2d3b;
+	font-family: 'Lato', sans-serif;
+	font-size: 11px;
+	color: white;
+	letter-spacing: 1px;
+	border: none;
+	outline: none;
+	border-radius: 35px;
+	position: relative;
+	left: -100px;
+	z-index: 999;
+	cursor: pointer;
+}

@@ -1,2 +1,2 @@
 # Juego-del-Ahorcado
-Challenge ONE Sprint 01
+Challenge ONE Sprint 02
